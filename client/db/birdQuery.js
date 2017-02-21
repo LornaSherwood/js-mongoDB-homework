@@ -1,7 +1,7 @@
 var MongoClient = require('mongodb').MongoClient;
 
 var BirdQuery = function(){
-  this.url = 'mongodb://localhost:27017/bird_site';
+  this.url = 'mongodb://localhost:27017/birds_site';
 };
 
 BirdQuery.prototype = {
